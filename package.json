@@ -1,0 +1,22 @@
+{
+  "name": "stoicard",
+  "version": "1.0.0",
+  "description": "A daily planner for stoics",
+  "main": "src/js/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddyhood/stoicard.git"
+  },
+  "author": "Eddy Hood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eddyhood/stoicard/issues"
+  },
+  "homepage": "https://github.com/eddyhood/stoicard#readme"
+}
