@@ -9,8 +9,7 @@
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "start": "webpack serve --open",
-    "test": "vitest --globals",
-
+    "test": "vitest --globals"
   },
   "repository": {
     "type": "git",
@@ -24,6 +23,7 @@
   "homepage": "https://github.com/eddyhood/stoicard#readme",
   "devDependencies": {
     "css-loader": "^6.7.1",
+    "happy-dom": "^5.2.0",
     "html-webpack-plugin": "^5.5.0",
     "postcss": "^8.4.14",
     "postcss-cli": "^9.1.0",
