@@ -1,5 +1,5 @@
 'use strict';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/style.css';
 import smallLogo from '../img/stoicard-logo-small.png';
 
