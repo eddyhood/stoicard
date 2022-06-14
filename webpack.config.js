@@ -15,10 +15,6 @@ module.exports = {
                 use: ['style-loader', 'css-loader', 'postcss-loader'],
             },
             {
-                test: /\.(png|svg|jpg|jpeg|gif)$/i,
-                type: 'asset/resource',
-            },
-            {
                 test: /\.(scss)$/,
                 use: [{
                   loader: 'style-loader', // inject CSS to page
@@ -37,6 +33,14 @@ module.exports = {
                 }, {
                   loader: 'sass-loader' // compiles Sass to CSS
                 }]
+              },
+              {
+                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                type: 'asset/resource',
+              },
+              {
+                test: /\.html$/i,
+                loader: "html-loader",
               },
         ],
     },
