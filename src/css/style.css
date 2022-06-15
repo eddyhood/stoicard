@@ -1,4 +1,74 @@
+/*Global Elements */
+:root {
+    --gray: #292826;
+    --light-gray: #e7e7e7;
+    --yellow: #F9D342;
+    font-size: 18px;
+}
+
+body {
+    color: var(--gray);
+}
+
+/*Bootstrap Customizations */
+.btn-warning {
+    background-color: var(--yellow)!important;
+    border: none !important;
+}
+
+.btn-outline-warning {
+    border: 1px solid var(--yellow)!important;
+    color: var(--yellow)!important;
+}
+
+.btn-outline-warning:hover {
+    border: none;
+    background-color: var(--yellow);
+    color: white !important;
+}
+.btn-secondary {
+    background-color: var(--gray)!important;
+    border: none !important;
+}
+
+.btn-outline-secondary {
+    border: 1px solid var(--gray)!important;
+    color: var(--gray)!important;
+}
+
+.btn-outline-secondary:hover {
+    border: none;
+    background-color: var(--gray);
+    color: white !important;
+
+}
+
+
+
+
+/*Navigation */
 #header-logo {
     max-width: 150px;
     height: auto;
+}
+
+#hero-text>h1 {
+    font-weight: bold;
+}
+
+/*General styling */
+.row-content {
+    border-bottom: 1px solid var(--light-gray);
+}
+
+#philosopher-image {
+    display: flex;
+    justify-content: center;
+}
+
+/*Media Queries */
+@media screen and (min-width: 768px) {
+    #hero-text {
+        margin-top: 125px;
+    }
 }
