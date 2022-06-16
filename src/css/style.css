@@ -83,6 +83,24 @@ body {
     justify-content: center;
 }
 
+/*Footer styling */
+#footer-header {
+    background-color: var(--gray);
+}
+
+#footer-main {
+    background-color: var(--light-gray);
+}
+
+#footer-bottom {
+    background-color: var(--yellow);
+}
+hr {
+    width: 60px; 
+    background-color: var(--gray); 
+    height: 2px;
+}
+
 /*Media Queries */
 @media screen and (min-width: 768px) {
     #hero-text {
