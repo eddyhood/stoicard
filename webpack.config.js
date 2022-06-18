@@ -49,6 +49,11 @@ module.exports = {
             title: 'Stoicard | The Daily Planner for Stoics',
             filename: 'index.html',
             template: 'src/html/template-main.html'
-        })
+        }),
+        new HtmlWebpackPlugin({
+          title: 'Stoicard | Join today',
+          filename: 'join.html',
+          template: 'src/html/template-landing-page.html'
+      })
     ]
 };

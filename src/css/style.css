@@ -82,6 +82,11 @@ body {
     background-color: var(--yellow);
     border-color: var(--yellow);
 }
+
+#setup-body {
+    flex: 1 0 auto;
+}
+
 /*General styling */
 .row-content {
     border-bottom: 1px solid var(--light-gray);
