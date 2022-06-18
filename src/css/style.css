@@ -73,6 +73,15 @@ body {
     font-weight: bold;
 }
 
+/*Forms*/
+#login-header {
+    background-color: var(--gray);
+}
+
+.form-check-input:checked {
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+}
 /*General styling */
 .row-content {
     border-bottom: 1px solid var(--light-gray);

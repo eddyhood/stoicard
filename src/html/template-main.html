@@ -31,10 +31,47 @@
             <a class="nav-link" href="#">FAQ</a>
           </li>
         </ul>
-        <button class="btn btn-outline-secondary" type="submit">Login</button>
+        <button class="btn btn-outline-secondary" type="button" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
         <button class="btn btn-outline-warning ms-3" type="submit">Sign Up</button>
       </div>
     </nav>
+
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="login" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-light" id="login-header">
+            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+            <a type="button" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-square"></i></a>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="row">
+                <div class="col">
+                  <label for="username" class="form-label">Username</label>
+                  <input type="text" name="username" id="username" class="form-control">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <label for="password" class="form-label">Password</label>
+                  <input type="password" id="inputPassword" class="form-control" aria-describedby="passwordHelpBlock">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="rememberMeCheck">
+                    <label class="form-check-label" for="rememberMeCheck">Remember Me</label>
+                  </div>
+                  <button type="submit" class="btn btn-warning">Login</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
       <div class="row">
           <div class="col d-md-none" id="philosopher-image">
